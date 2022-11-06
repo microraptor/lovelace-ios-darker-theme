@@ -63,11 +63,12 @@ ios-darker:
   # card-background-color: var(--secondary-background-color)  # Unused entities table background
   card-background-color: var(--primary-background-color)  # FORK DEVIATION: Pop-up dialog background dark and opaque
   paper-listbox-background-color: var(--primary-background-color)
+  ha-card-header-color: var(--primary-text-color)
   ha-card-border-radius: 5px  # FORK DEVIATION: Card corners sharper
-  ha-card-border-width: 0px  # FORK DEVIATION: Remove card outline
   ha-card-background: rgba(10, 10, 10, 0.4)  # FORK DEVIATION: Card background darker
   paper-card-background-color: var(--ha-card-background)
   code-editor-background-color: var(--disabled-text-color)
+  ha-card-border-width: 0  # from https://github.com/basnijholt/lovelace-ios-dark-mode-theme/issues/82
   # Toggles
   paper-toggle-button-checked-button-color: "#484848"
   paper-toggle-button-checked-bar-color: "#484848"
